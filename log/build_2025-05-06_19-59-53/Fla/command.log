@@ -1,0 +1,6 @@
+Invoking command in '/home/laelt/project_ws/build/Fla': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/laelt/project_ws/src/Fla -DCMAKE_INSTALL_PREFIX=/home/laelt/project_ws/install/Fla
+Invoked command in '/home/laelt/project_ws/build/Fla' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/laelt/project_ws/src/Fla -DCMAKE_INSTALL_PREFIX=/home/laelt/project_ws/install/Fla
+Invoking command in '/home/laelt/project_ws/build/Fla': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/laelt/project_ws/build/Fla -- -j4 -l4
+Invoked command in '/home/laelt/project_ws/build/Fla' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/laelt/project_ws/build/Fla -- -j4 -l4
+Invoking command in '/home/laelt/project_ws/build/Fla': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/laelt/project_ws/build/Fla
+Invoked command in '/home/laelt/project_ws/build/Fla' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/laelt/project_ws/build/Fla

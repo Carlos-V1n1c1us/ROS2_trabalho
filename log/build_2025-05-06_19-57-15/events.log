@@ -1,0 +1,104 @@
+[0.000000] (-) TimerEvent: {}
+[0.000173] (Fla) JobQueued: {'identifier': 'Fla', 'dependencies': OrderedDict()}
+[0.000206] (Fla) JobStarted: {'identifier': 'Fla'}
+[0.007221] (Fla) JobProgress: {'identifier': 'Fla', 'progress': 'cmake'}
+[0.007826] (Fla) Command: {'cmd': ['/usr/bin/cmake', '/home/laelt/project_ws/src/Fla', '-DCMAKE_INSTALL_PREFIX=/home/laelt/project_ws/install/Fla'], 'cwd': '/home/laelt/project_ws/build/Fla', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'laelt'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laelt'), ('OLDPWD', '/home/laelt/project_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2751'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e19cbc2227a018b9e9f17b48681a6f2f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laelt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'laelt'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/laelt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/laelt-OptiPlex-7050:@/tmp/.ICE-unix/2751,unix/laelt-OptiPlex-7050:/tmp/.ICE-unix/2751'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/018234fe_4379_4053_a002_03c27b7fbce3'), ('GNOME_SETUP_DISPLAY', ':3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PKN052'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.248'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/laelt/project_ws/build/Fla'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e19cbc2227a018b9e9f17b48681a6f2f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.080751] (Fla) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099266] (-) TimerEvent: {}
+[0.146399] (Fla) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.155503] (Fla) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199386] (-) TimerEvent: {}
+[0.229363] (Fla) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.237715] (Fla) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.238293] (Fla) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.238980] (Fla) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.242866] (Fla) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299509] (-) TimerEvent: {}
+[0.327635] (Fla) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.336163] (Fla) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.336504] (Fla) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.337008] (Fla) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.340278] (Fla) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399622] (-) TimerEvent: {}
+[0.497826] (Fla) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.499723] (-) TimerEvent: {}
+[0.589524] (Fla) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[0.590802] (Fla) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.599831] (-) TimerEvent: {}
+[0.653662] (Fla) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.660761] (Fla) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.676331] (Fla) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.696611] (Fla) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.699962] (-) TimerEvent: {}
+[0.722770] (Fla) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.790205] (Fla) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.794469] (Fla) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800085] (-) TimerEvent: {}
+[0.898032] (Fla) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.900178] (-) TimerEvent: {}
+[0.929321] (Fla) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.975093] (Fla) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.985006] (Fla) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000307] (-) TimerEvent: {}
+[1.070623] (Fla) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.070842] (Fla) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.100430] (-) TimerEvent: {}
+[1.153052] (Fla) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.154285] (Fla) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.200549] (-) TimerEvent: {}
+[1.228744] (Fla) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.244382] (Fla) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.265871] (Fla) StdoutLine: {'line': b'-- Found ros_gz_bridge: 0.244.16 (/opt/ros/humble/share/ros_gz_bridge/cmake)\n'}
+[1.300673] (-) TimerEvent: {}
+[1.375658] (Fla) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.400797] (-) TimerEvent: {}
+[1.458078] (Fla) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.500958] (-) TimerEvent: {}
+[1.601213] (-) TimerEvent: {}
+[1.701466] (-) TimerEvent: {}
+[1.801719] (-) TimerEvent: {}
+[1.826444] (Fla) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.881582] (Fla) StderrLine: {'line': b"Error parsing '/home/laelt/project_ws/src/Fla/package.xml':\n"}
+[1.901835] (-) TimerEvent: {}
+[1.940044] (Fla) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.940200] (Fla) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[1.941592] (Fla) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[1.941713] (Fla) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString\n'}
+[1.942512] (Fla) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[1.942633] (Fla) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[1.943269] (Fla) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[1.943556] (Fla) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[1.943757] (Fla) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[1.943828] (Fla) StderrLine: {'line': b'xml.parsers.expat.ExpatError: mismatched tag: line 25, column 2\n'}
+[1.943898] (Fla) StderrLine: {'line': b'\n'}
+[1.943968] (Fla) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[1.944027] (Fla) StderrLine: {'line': b'\n'}
+[1.944086] (Fla) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.944143] (Fla) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[1.944202] (Fla) StderrLine: {'line': b'    main()\n'}
+[1.944259] (Fla) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[1.944317] (Fla) StderrLine: {'line': b'    raise e\n'}
+[1.944374] (Fla) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[1.944431] (Fla) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[1.944501] (Fla) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[1.944561] (Fla) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[1.944619] (Fla) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/laelt/project_ws/src/Fla/package.xml':\n"}
+[1.944676] (Fla) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[1.944733] (Fla) StderrLine: {'line': b'mismatched tag: line 25, column 2\n'}
+[1.958144] (Fla) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[1.958293] (Fla) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.958376] (Fla) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[1.958486] (Fla) StderrLine: {'line': b'  /home/laelt/project_ws/src/Fla/package.xml\n'}
+[1.958687] (Fla) StderrLine: {'line': b'  /home/laelt/project_ws/build/Fla/ament_cmake_core/package.cmake) returned\n'}
+[1.958787] (Fla) StderrLine: {'line': b'  error code 1\n'}
+[1.958852] (Fla) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.958952] (Fla) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[1.959023] (Fla) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[1.959082] (Fla) StderrLine: {'line': b'  CMakeLists.txt:55 (ament_lint_auto_find_test_dependencies)\n'}
+[1.959141] (Fla) StderrLine: {'line': b'\n'}
+[1.959198] (Fla) StderrLine: {'line': b'\x1b[0m\n'}
+[1.959255] (Fla) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.959322] (Fla) StdoutLine: {'line': b'See also "/home/laelt/project_ws/build/Fla/CMakeFiles/CMakeOutput.log".\n'}
+[1.970964] (Fla) CommandEnded: {'returncode': 1}
+[1.971840] (Fla) JobEnded: {'identifier': 'Fla', 'rc': 1}
+[1.982491] (-) EventReactorShutdown: {}

@@ -1,0 +1,44 @@
+[0.011s] Invoking command in '/home/laelt/project_ws/build/Fla': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/laelt/project_ws/src/Fla -DCMAKE_INSTALL_PREFIX=/home/laelt/project_ws/install/Fla
+[0.025s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.157s] -- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[0.157s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.189s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.191s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.198s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.208s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.222s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.258s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.259s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.371s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.425s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.440s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.459s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.515s] WARNING: Package name "Fla" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.539s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.539s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/laelt/project_ws/src/Fla/include>
+[0.539s] -- Configured cppcheck exclude dirs and/or files: 
+[0.539s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.540s] -- Added test 'lint_cmake' to check CMake code style
+[0.541s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.542s] -- Added test 'uncrustify' to check C / C++ code style
+[0.542s] -- Configured uncrustify additional arguments: 
+[0.542s] -- Added test 'xmllint' to check XML markup files
+[0.544s] -- Configuring done
+[0.550s] -- Generating done
+[0.553s] -- Build files have been written to: /home/laelt/project_ws/build/Fla
+[0.560s] Invoked command in '/home/laelt/project_ws/build/Fla' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/laelt/project_ws/src/Fla -DCMAKE_INSTALL_PREFIX=/home/laelt/project_ws/install/Fla
+[0.562s] Invoking command in '/home/laelt/project_ws/build/Fla': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/laelt/project_ws/build/Fla -- -j4 -l4
+[0.614s] [ 50%] [32mBuilding CXX object CMakeFiles/cefet.dir/src/cefet.cpp.o[0m
+[0.659s] [100%] [32m[1mLinking CXX executable cefet[0m
+[0.713s] [100%] Built target cefet
+[0.726s] Invoked command in '/home/laelt/project_ws/build/Fla' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/laelt/project_ws/build/Fla -- -j4 -l4
+[0.737s] Invoking command in '/home/laelt/project_ws/build/Fla': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/laelt/project_ws/build/Fla
+[0.744s] -- Install configuration: ""
+[0.744s] -- Installing: /home/laelt/project_ws/install/Fla/share/Fla/launch
+[0.745s] -- Installing: /home/laelt/project_ws/install/Fla/share/Fla/launch/launch.py
+[0.745s] [31mCMake Error at cmake_install.cmake:50 (file):
+[0.745s]   file INSTALL cannot find "/home/laelte/project_ws/src/Fla/Model": No such
+[0.745s]   file or directory.
+[0.745s] 
+[0.745s] [0m
+[0.746s] Invoked command in '/home/laelt/project_ws/build/Fla' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/laelt/project_ws/build/Fla

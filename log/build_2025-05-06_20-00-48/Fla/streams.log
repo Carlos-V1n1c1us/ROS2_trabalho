@@ -1,0 +1,14 @@
+[0.011s] Invoking command in '/home/laelt/project_ws/build/Fla': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/laelt/project_ws/build/Fla -- -j4 -l4
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target cefet[0m
+[0.063s] [100%] Built target cefet
+[0.075s] Invoked command in '/home/laelt/project_ws/build/Fla' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/laelt/project_ws/build/Fla -- -j4 -l4
+[0.086s] Invoking command in '/home/laelt/project_ws/build/Fla': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/laelt/project_ws/build/Fla
+[0.093s] -- Install configuration: ""
+[0.093s] -- Up-to-date: /home/laelt/project_ws/install/Fla/share/Fla/launch
+[0.093s] -- Installing: /home/laelt/project_ws/install/Fla/share/Fla/launch/launch.py
+[0.094s] [31mCMake Error at cmake_install.cmake:50 (file):
+[0.094s]   file INSTALL cannot find "/home/laelte/project_ws/src/Fla/Model": No such
+[0.094s]   file or directory.
+[0.094s] 
+[0.094s] [0m
+[0.095s] Invoked command in '/home/laelt/project_ws/build/Fla' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/laelt/project_ws/build/Fla

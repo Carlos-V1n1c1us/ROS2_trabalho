@@ -1,0 +1,79 @@
+[0.011s] Invoking command in '/home/laelt/project_ws/build/Fla': /usr/bin/cmake /home/laelt/project_ws/src/Fla -DCMAKE_INSTALL_PREFIX=/home/laelt/project_ws/install/Fla
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.146s] -- The CXX compiler identification is GNU 11.4.0
+[0.155s] -- Detecting C compiler ABI info
+[0.229s] -- Detecting C compiler ABI info - done
+[0.238s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.238s] -- Detecting C compile features
+[0.239s] -- Detecting C compile features - done
+[0.243s] -- Detecting CXX compiler ABI info
+[0.328s] -- Detecting CXX compiler ABI info - done
+[0.336s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.336s] -- Detecting CXX compile features
+[0.337s] -- Detecting CXX compile features - done
+[0.340s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.498s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.589s] -- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[0.591s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.654s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.661s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.676s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.723s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.790s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.794s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.898s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.929s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.975s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.985s] -- Looking for pthread.h
+[1.071s] -- Looking for pthread.h - found
+[1.071s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.153s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.154s] -- Found Threads: TRUE  
+[1.229s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.244s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.266s] -- Found ros_gz_bridge: 0.244.16 (/opt/ros/humble/share/ros_gz_bridge/cmake)
+[1.376s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.458s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.826s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.881s] Error parsing '/home/laelt/project_ws/src/Fla/package.xml':
+[1.940s] Traceback (most recent call last):
+[1.940s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[1.941s]     root = dom.parseString(data)
+[1.942s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[1.942s]     return expatbuilder.parseString(string)
+[1.942s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[1.943s]     return builder.parseString(string)
+[1.944s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[1.944s]     parser.Parse(string, True)
+[1.944s] xml.parsers.expat.ExpatError: mismatched tag: line 25, column 2
+[1.944s] 
+[1.944s] During handling of the above exception, another exception occurred:
+[1.944s] 
+[1.944s] Traceback (most recent call last):
+[1.944s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.944s]     main()
+[1.944s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.944s]     raise e
+[1.944s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.944s]     package = parse_package_string(
+[1.944s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[1.944s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.944s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/laelt/project_ws/src/Fla/package.xml':
+[1.945s] The manifest contains invalid XML:
+[1.945s] mismatched tag: line 25, column 2
+[1.958s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.958s]   execute_process(/usr/bin/python3
+[1.958s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.958s]   /home/laelt/project_ws/src/Fla/package.xml
+[1.959s]   /home/laelt/project_ws/build/Fla/ament_cmake_core/package.cmake) returned
+[1.959s]   error code 1
+[1.959s] Call Stack (most recent call first):
+[1.959s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.959s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.959s]   CMakeLists.txt:55 (ament_lint_auto_find_test_dependencies)
+[1.959s] 
+[1.959s] [0m
+[1.959s] -- Configuring incomplete, errors occurred!
+[1.959s] See also "/home/laelt/project_ws/build/Fla/CMakeFiles/CMakeOutput.log".
+[1.971s] Invoked command in '/home/laelt/project_ws/build/Fla' returned '1': /usr/bin/cmake /home/laelt/project_ws/src/Fla -DCMAKE_INSTALL_PREFIX=/home/laelt/project_ws/install/Fla

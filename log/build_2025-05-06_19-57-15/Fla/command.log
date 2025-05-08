@@ -1,0 +1,2 @@
+Invoking command in '/home/laelt/project_ws/build/Fla': /usr/bin/cmake /home/laelt/project_ws/src/Fla -DCMAKE_INSTALL_PREFIX=/home/laelt/project_ws/install/Fla
+Invoked command in '/home/laelt/project_ws/build/Fla' returned '1': /usr/bin/cmake /home/laelt/project_ws/src/Fla -DCMAKE_INSTALL_PREFIX=/home/laelt/project_ws/install/Fla
